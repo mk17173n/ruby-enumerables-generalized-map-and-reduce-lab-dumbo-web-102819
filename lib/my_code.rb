@@ -14,7 +14,3 @@ def reduce (array, starting_point = 100)
   
   return sum + starting_point
 end
-
-array = [1, 2, 3]
-
-reduce(array)
