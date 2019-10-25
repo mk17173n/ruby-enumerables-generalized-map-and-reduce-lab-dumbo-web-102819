@@ -9,7 +9,7 @@ def reduce (array, starting_point = 100)
   end
   
   array.length.times do |index|
-    sum += yield(array[index], starting_point)
+    sum += array[index]
   end
   
   return sum + starting_point
