@@ -1,6 +1,6 @@
 # Your Code Here
 
-def reduce (array, starting_point)
+def reduce (array, starting_point = 0)
   if starting_point
     starting_point = starting_point
   else
