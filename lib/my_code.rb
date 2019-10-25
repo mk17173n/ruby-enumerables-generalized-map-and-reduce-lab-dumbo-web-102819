@@ -2,7 +2,7 @@
 
 def reduce (array, starting_point = 0)
   array.length.times do |index|
-    starting_point += array[index]
+    yield(starting_point += array[index])
   end
   starting_point
 end
