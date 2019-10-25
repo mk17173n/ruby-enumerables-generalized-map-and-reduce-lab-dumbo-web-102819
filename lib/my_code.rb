@@ -1,9 +1,9 @@
 # Your Code Here
 
 def reduce (array, starting_point = 0)
-  array.length.times do |index|
+  yield(array.length.times do |index|
     starting_point += array[index]
-  end
+  end)
   
   starting_point
 end
