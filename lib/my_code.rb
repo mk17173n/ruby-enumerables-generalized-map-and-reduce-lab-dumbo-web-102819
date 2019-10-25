@@ -4,7 +4,7 @@ def reduce (array, starting_point)
   if starting_point
     starting_point = starting_point
   else
-    starting_point = 100
+    starting_point = 0
   end
   
   sum = 0
