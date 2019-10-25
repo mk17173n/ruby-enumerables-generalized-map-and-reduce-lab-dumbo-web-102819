@@ -1,11 +1,10 @@
 # Your Code Here
 
-def reduce (array, starting_point = 100)
-  sum = 0
+def reduce (array, starting_point)
   if starting_point
     starting_point = starting_point
   else
-    starting_point = 100
+    starting_point = 0
   end
   
   array.length.times do |index|
