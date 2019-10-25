@@ -1,6 +1,6 @@
 # Your Code Here
 
-def my_own_reduce (array, starting_point)
+def reduce (array, starting_point)
   if starting_point
     starting_point = starting_point
   else
