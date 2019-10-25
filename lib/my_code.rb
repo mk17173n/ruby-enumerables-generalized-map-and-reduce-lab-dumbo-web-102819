@@ -5,4 +5,5 @@ def reduce (array, starting_point = 0)
     starting_point += array[index]
   end
   starting_point
+  yield(array, starting_point)
 end
